@@ -1,6 +1,6 @@
-const express = require('express');
-const {logInformation} = require("./lib/loggerUtils");
-const {setResponseHeaders} = require("./lib/apiUtils");
+import express from 'express';
+import {setResponseHeaders} from "./lib/apiUtils.js";
+import {logInformation} from "./lib/loggerUtils.js";
 const app = express();
 const PORT = 3001;
 
