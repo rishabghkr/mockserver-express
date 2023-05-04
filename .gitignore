@@ -1,0 +1,11 @@
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore JetBrains IntelliJ IDEA files
+.idea/
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore Express app files
+*.log
